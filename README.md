@@ -1,4 +1,4 @@
-Full Stack Notes Application
+**Full Stack Notes Application**
 
 The **Notes App** is a full-stack web application designed to help users efficiently create, manage, and organize their personal notes in one place. It provides a clean and intuitive interface where users can quickly add ideas, edit existing notes, and delete unwanted ones. The application is built with a focus on simplicity, speed, and usability, making it suitable for daily productivity and task management.
 
@@ -34,14 +34,16 @@ Environment Config: Deployment-ready setup using .env files.
 
 🛠️** Tech Stack**
 
-Frontend
-Framework: React.js
+*Frontend:
+
+Framework: React.js 
 
 HTTP Client: Axios
 
 Styling: CSS3
 
-Backend
+*Backend:
+
 Runtime: Node.js
 
 Framework: Express.js
@@ -77,29 +79,30 @@ Code snippet:
 PORT=5000
 MONGO_URI=mongodb://jeevithapriyadbio210_db_user:notes@ac-efgcrtn-shard-00-00.fa8o48r.mongodb.net:27017,ac-efgcrtn-shard-00-01.fa8o48r.mongodb.net:27017,ac-efgcrtn-shard-00-02.fa8o48r.mongodb.net:27017/?ssl=true&replicaSet=atlas-v0id4z-shard-0&authSource=admin&appName=Cluster0
 CLIENT_URL=http://localhost:3000
-Start the server:
+
+Start the server: Mongodb Connected.
 
 Sample Referance (data stores in DB):
 <img width="1325" height="662" alt="image" src="https://github.com/user-attachments/assets/d13edd88-b676-43c2-8c47-a7c41ac1e2b1" />
 
 
 
-3. Frontend Setup
+3. Frontend Setup:
+
 Navigate to the frontend folder:
 
-Bash
 cd ../frontend
 Install dependencies:
 
-Bash
 npm install
-Create a .env file inside frontend/ and add:
 
-Code snippet
+Create an .env file inside frontend/ and add:
+
+**Code snippet**
+
 REACT_APP_API_URL=http://localhost:5000/api
 Start the React app:
 
-Bash
 npm start
 
 🚀** How to Use**
