@@ -1,0 +1,95 @@
+/* Import a modern font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  /* Soft gradient background */
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  min-height: 100vh;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.title {
+  text-align: center;
+  color: #2d3748;
+  margin-bottom: 2rem;
+}
+
+.search {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 25px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1);
+  margin-bottom: 30px;
+}
+
+/* FORM STYLING */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.input, .textarea {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+}
+
+/* BUTTONS WITH HOVER EFFECTS */
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s, opacity 0.2s;
+  font-weight: 600;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  opacity: 0.9;
+}
+
+.primary { background: #4a90e2; color: white; }
+.edit { background: #f6ad55; color: white; }
+.delete { background: #f56565; color: white; }
+
+/* NOTES GRID */
+.notes-grid {
+  display: grid;
+  gap: 20px;
+}
+
+.note-card {
+  background: white;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease;
+}
+
+.note-card:hover {
+  transform: scale(1.02); /* Slight zoom on hover */
+}
+
+.actions {
+  margin-top: 15px;
+  display: flex;
+  gap: 10px;
+}
