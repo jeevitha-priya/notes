@@ -33,8 +33,8 @@ Database: MongoDB with Mongoose
 Middleware: CORS, Dotenv
 
 ⚙️ **Setup Instructions**
-Prerequisites
-Node.js installed
+
+1.Node.js installed
 
 MongoDB Atlas Account (or local MongoDB installed)
 
@@ -77,7 +77,7 @@ Start the React app:
 Bash
 npm start
 
-🚀** How to Use**
+** How to Use**
 Ensure your backend is running on port 5000.
 
 Ensure your frontend is running on port 3000.
