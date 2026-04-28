@@ -77,7 +77,9 @@ npm install
 Code snippet:
 
 PORT=5000
+
 MONGO_URI=mongodb://jeevithapriyadbio210_db_user:notes@ac-efgcrtn-shard-00-00.fa8o48r.mongodb.net:27017,ac-efgcrtn-shard-00-01.fa8o48r.mongodb.net:27017,ac-efgcrtn-shard-00-02.fa8o48r.mongodb.net:27017/?ssl=true&replicaSet=atlas-v0id4z-shard-0&authSource=admin&appName=Cluster0
+
 CLIENT_URL=http://localhost:3000
 
 Start the server: Mongodb Connected.
@@ -101,6 +103,7 @@ Create an .env file inside frontend/ and add:
 **Code snippet**
 
 REACT_APP_API_URL=http://localhost:5000/api
+
 Start the React app:
 
 npm start
@@ -123,7 +126,7 @@ Use the "Edit" and "Delete" buttons to manage your notes.
 Plaintext
 notes-app/
 ├── backend/
-│   ├── config/       # Database connection
+│   ├── config/ # Database connection
 │   ├── controllers/  # API logic
 │   ├── models/       # MongoDB schema
 │   ├── routes/       # API endpoints
@@ -138,11 +141,17 @@ notes-app/
 🌟**Future Enhancements**
 
 🔑 User authentication (Login & Signup system)
+
 ☁️ Cloud-based note storage
+
 🔎 Advanced search and filtering system
+
 🏷️ Tags and categories for notes
+
 📲 Progressive Web App (PWA) support
+
 🌙 Dark mode UI support
+
 🤝 Contribution Guide
 
 
