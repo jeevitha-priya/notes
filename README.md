@@ -1,4 +1,5 @@
-Full-Stack Notes Application
+**Full-Stack Notes Application**
+
 A clean, responsive Full-Stack web application built with the MERN stack (MongoDB, Express, React, Node.js). 
 This project allows users to create, read, update, and delete personal notes, featuring a modern, user-friendly interface.
 
@@ -75,6 +76,7 @@ Start the React app:
 
 Bash
 npm start
+
 🚀** How to Use**
 Ensure your backend is running on port 5000.
 
@@ -87,19 +89,3 @@ Enter a title and body to add a new note.
 Use the search bar to find specific notes by title.
 
 Use the "Edit" and "Delete" buttons to manage your notes.
-
-📂 Project Structure
-Plaintext
-notes-app/
-├── backend/
-│   ├── config/       # Database connection
-│   ├── controllers/  # API logic
-│   ├── models/       # MongoDB schema
-│   ├── routes/       # API endpoints
-│   └── server.js     # Entry point
-└── frontend/
-    ├── src/
-    │   ├── components/ # React components
-    │   ├── api.js      # Axios instance
-    │   └── App.js      # Main App logic
-    └── package.json
