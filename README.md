@@ -114,7 +114,7 @@ Ensure your backend is running on port 5000.
 
 Ensure your frontend is running on port 3000.
 
-Open your browser and visit http://localhost:3000.
+Open your browser and visit(Output) http://localhost:3000.
 
 Enter a title and body to add a new note.
 
