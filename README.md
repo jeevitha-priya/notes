@@ -102,7 +102,7 @@ Create an .env file inside frontend/ and add:
 
 **Code snippet**
 
-REACT_APP_API_URL=http://localhost:5000/api
+REACT_APP_API_URL=http://localhost:5000/api/notes
 
 Start the React app:
 
